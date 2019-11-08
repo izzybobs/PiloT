@@ -72,7 +72,8 @@ body {
   <a href="#home">Home</a>
   <a href="#news">News</a>
   <div class="dropdown">
-    <button class="dropbtn"><a href="https://izzybobs.github.io/pilot/networkManagerDocs/">Network Manager Documentation</a>
+    <button class="dropbtn">
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs/">Network Manager Documentation</a>
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
