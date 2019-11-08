@@ -67,9 +67,11 @@ title: Technical Documentation Home
 		width: 100%;
   		margin: 0;
  		padding: 0;
+		list-style-type: none;
 	}
 	li {
 		position: relative;
+		list-style-type: none;
 	}
 	li a {
 		display: block;
@@ -78,6 +80,8 @@ title: Technical Documentation Home
 		color: black;
 		text-decoration: none;
 		font-size: 20px;
+		list-style-type: none;
+		
 	}
 	li a:hover, .topmenu li:hover > a {
 		list-style-type: none;
@@ -91,6 +95,7 @@ title: Technical Documentation Home
 		border-radius: .3em .3em 0 0;
 	}
 	.current, a:hover.current, .topmenu li:hover a.current {
+	list-style-type: none;
 		background: #ffffff;
 		color: #f37221;
 		text-decoration: none;
@@ -104,6 +109,7 @@ title: Technical Documentation Home
 	/*dropdown menu styles*/
 	ul.submenu {
 		float: none;
+		list-style-type: none;
 		background: #ffffff;
 		width: auto;
 		height: auto;
@@ -119,6 +125,7 @@ title: Technical Documentation Home
 	}
 	ul.submenu li {
 		float: none;
+		list-style-type: none;
 	}
 	.topmenu li:hover ul {
 		left: 0;
