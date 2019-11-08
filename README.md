@@ -3,7 +3,7 @@ permalink: /
 title: Technical Documentation Home
 ---
 The PiloT is a Raspberry Pi \(RPi\) HAT compliant board which provides cellular
- connectivity, some variants also have GNSS location capability.
+ connectivity, some variants also have GNSS location capability. test
 
 The PiloT power state is controlled via the Rpi GPIO and the Pilot is powered
  via the RPi 40 pin header.
