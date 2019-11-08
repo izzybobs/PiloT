@@ -135,10 +135,8 @@ title: Technical Documentation Home
 	</style>
 </head>
 <body>
-	<h1>Dropdown menu test</h1>
-	<p>This is a test body of text</p>
-
-	<h2>PiloT navigation</h2>
+	
+	<h2>Navigation</h2>
 	<nav class="cf">
 		<nav class="cf">
 			<ul class="topmenu">
