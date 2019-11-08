@@ -55,6 +55,10 @@ title: Technical Documentation Home
 		list-style:none;
 		list-style-type:none;
 		float: left;
+		
+		#top-list{
+ 	        list-style-type: none;
+                list-style: none;}
 	}
 	ul {
 		background: #ffffff;
