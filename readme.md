@@ -161,8 +161,8 @@ title: Technical Documentation Home
 			<ul class="topmenu">
 				<li><a href="home.htm" title="Home page" class="current">Home</a></li>
 				<li><a href="products.htm" title="browse pages">Pages</a>
-					<ul class="submenu">
-						<a href="https://izzybobs.github.io/menu-test/tipperbear/" title="tipperbear">Tipper Bear</a></li>
+				<ul class="submenu">
+				<a href="https://izzybobs.github.io/pilot/networkManagerDocs/" title="Network Manager">Network Manager Documentation</a></li>
 
 					</ul>
 				</li>
