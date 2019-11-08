@@ -54,7 +54,7 @@ title: Technical Documentation Home
 		padding: 0;
 		list-style: none;
 		float: left;
-		list-style-type:none;
+		list-style-type: none;
 		
 		#top-list{
  	        list-style-type: none;
@@ -79,6 +79,7 @@ title: Technical Documentation Home
 		font-size: 20px;
 	}
 	li a:hover, .topmenu li:hover > a {
+		list-style-type: none;
 		background: #ffffff;
 		color: #f37221;
 		text-decoration: none;
