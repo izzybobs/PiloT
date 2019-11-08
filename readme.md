@@ -112,6 +112,7 @@ title: Technical Documentation Home
 		float: none;
 		list-style-type: none;
 		background: #ffffff;
+		font-size: 12px;
 		width: auto;
 		height: auto;
 		position: absolute;
