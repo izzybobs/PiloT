@@ -131,6 +131,7 @@ title: Technical Documentation Home
 	.topmenu li:hover ul {
 		left: 0;
 		max-height: 10em;
+		list-style-type: none;
 	}
 	ul.submenu li a {
 		border-bottom: 1px solid white;
