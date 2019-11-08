@@ -49,11 +49,11 @@ title: Technical Documentation Home
 		font-size: 20px;
 		font: 100% Open Sans, "Open Sans", Arial, sans-serif;
 	}
-	ul, {
+	ul, li {
 		margin: 0;
 		padding: 0;
-		list-style:none;
-		list-style-type:none;
+		list-style: none;
+		list-style-type: none;
 		float: left;
 		
 		#top-list{
@@ -67,7 +67,7 @@ title: Technical Documentation Home
   		margin: 0;
  		padding: 0;
 	}
-	li {
+	 {
 		position: relative;
 	}
 	li a {
