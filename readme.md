@@ -59,7 +59,6 @@ title: Technical Documentation Home
 		background: #ffffff;
 		height: 2em;
 		width: 100%;
-		list-style-type: none;
   		margin: 0;
  		padding: 0;
 	}
@@ -141,6 +140,7 @@ title: Technical Documentation Home
 	<nav class="cf">
 		<nav class="cf">
 			<ul class="topmenu">
+				<li style="list-style-type: none;">
 				<li><a href="home.htm" title="Home page" class="current">Home</a></li>
 				<li><a href="products.htm" title="browse pages">Pages</a>
 					<ul class="submenu">
