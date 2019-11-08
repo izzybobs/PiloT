@@ -79,7 +79,7 @@ body {
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>
     
-    <div class="dropdown">
+  <div class="dropdown">
     <button class="dropbtn">Network Manager Documentation 
       <i class="fa fa-caret-down"></i>
     </button>
