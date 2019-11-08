@@ -48,6 +48,7 @@ title: Technical Documentation Home
 		height: 4em;
 		font-size: 20px;
 		font: 100% Open Sans, "Open Sans", Arial, sans-serif;
+		list-style-type: none;
 	}
 	ul, li {
 		margin: 0;
