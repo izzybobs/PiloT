@@ -49,7 +49,7 @@ title: Technical Documentation Home
 		font-size: 20px;
 		font: 100% Open Sans, "Open Sans", Arial, sans-serif;
 	}
-	ul, li {
+	 li {
 		margin: 0;
 		padding: 0;
 		list-style-type: none;
