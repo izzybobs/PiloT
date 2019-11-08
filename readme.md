@@ -2,20 +2,11 @@
 permalink: /
 title: Technical Documentation Home
 ---
-```html
-<h2>Example of code</h2>
+{::nomarkdown}
 
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-            //Your content
-            </div>
-        </div>
-    </div>
-</pre>
-```
+<p> test </p>
+
+{:/}
 The PiloT is a Raspberry Pi \(RPi\) HAT compliant board which provides cellular
  connectivity, some variants also have GNSS location capability. test
 
