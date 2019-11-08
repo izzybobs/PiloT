@@ -135,8 +135,6 @@ title: Technical Documentation Home
 	</style>
 </head>
 <body>
-	
-	<h2>Navigation</h2>
 	<nav class="cf">
 		<nav class="cf">
 			<ul class="topmenu">
@@ -168,6 +166,7 @@ title: Technical Documentation Home
 </html>
 
 {:/}
+---
 The PiloT is a Raspberry Pi \(RPi\) HAT compliant board which provides cellular
  connectivity, some variants also have GNSS location capability. test
 
