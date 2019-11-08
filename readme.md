@@ -18,7 +18,7 @@ title: Technical Documentation Home
 		width: 70%;
 		margin: 0 auto;
 		padding-bottom: 20em;
-		list-style-type: none;
+		
 	}
 	h1, h2, h3 {
 		font: 100% Open Sans, "Open Sans", Arial, sans-serif;
