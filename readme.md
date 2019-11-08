@@ -18,6 +18,7 @@ title: Technical Documentation Home
 		width: 70%;
 		margin: 0 auto;
 		padding-bottom: 20em;
+		list-style-type: none;
 	}
 	h1, h2, h3 {
 		font: 100% Open Sans, "Open Sans", Arial, sans-serif;
@@ -135,9 +136,11 @@ title: Technical Documentation Home
 		border-bottom: 1px solid white;
 		padding: .2em 1em;
 		white-space: nowrap;
+		list-style-type: none;
 	}
 	ul.submenu li:last-child a {
 		border-bottom: none;
+		list-style-type: none;
 	}
 	ul.submenu li a:hover {
 		background: #ffffff;
@@ -147,6 +150,7 @@ title: Technical Documentation Home
 		padding-top: .2em;
 		top: 0;
 		border-radius: 0;
+		list-style-type: none;
 	}
 	</style>
 </head>
@@ -154,7 +158,7 @@ title: Technical Documentation Home
 	<nav class="cf">
 		<nav class="cf">
 			<ul class="topmenu">
-				
+			list-style-type: none;	
 				<li><a href="home.htm" title="Home page" class="current">Home</a></li>
 				<li><a href="products.htm" title="browse pages">Pages</a>
 					<ul class="submenu">
