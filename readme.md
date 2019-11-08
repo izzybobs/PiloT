@@ -59,6 +59,9 @@ title: Technical Documentation Home
 		background: #ffffff;
 		height: 2em;
 		width: 100%;
+		list-style-type: none;
+  		margin: 0;
+ 		padding: 0;
 	}
 	li {
 		position: relative;
