@@ -60,12 +60,7 @@ title: Technical Documentation Home
  	        list-style-type: none;
                 list-style: none;}
 	}
-	ul {
-		background: #ffffff;
-		height: 2em;
-		width: 100%;
-  		margin: 0;
- 		padding: 0;
+	
 	}
 	li {
 		position: relative;
@@ -145,7 +140,7 @@ title: Technical Documentation Home
 	<nav class="cf">
 		<nav class="cf">
 			<ul class="topmenu">
-				<ul style="list-style-type: none;">
+				
 				<li><a href="home.htm" title="Home page" class="current">Home</a></li>
 				<li><a href="products.htm" title="browse pages">Pages</a>
 					<ul class="submenu">
