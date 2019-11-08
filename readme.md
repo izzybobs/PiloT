@@ -3,39 +3,6 @@ permalink: /
 title: Technical Documentation Home
 ---
 
-	<h1>Dropdown menu test</h1>
-	<p>This is a test body of text</p>
-
-	<h2>PiloT navigation</h2>
-	<nav class="cf">
-		<nav class="cf">
-			<ul class="topmenu">
-				<li><a href="home.htm" title="Home page" class="current">Home</a></li>
-				<li><a href="products.htm" title="browse pages">Pages</a>
-					<ul class="submenu">
-						<li><a href="https://izzybobs.github.io/menu-test/tipperbear/" title="tipperbear">Tipper Bear</a></li>
-
-					</ul>
-				</li>
-				<li><a href="test.htm" title="test">Test</a>
-					<ul class="submenu">
-						<li><a href="test1.htm" title="test1">Test 1</a></li>
-						<li><a href="test2.htm" title="test2">Test 2</a></li>
-						<li><a href="test3.htm" title="test3">Test 3</a></li>
-					</ul>
-				</li>
-				<li><a href="https://izzybobs.github.io/menu-test/about/" title="More about me">About</a></li>
-				<li><a href="https://izzybobs.github.io/menu-test/" title="anchortest">Anchor Test</a>
-					<ul class="submenu">
-						<li><a href="https://izzybobs.github.io/menu-test/tipperbear/#tip_anchor" title="Click to test anchor">Anchor</a></li>
-						
-					</ul>
-				</li>
-			</ul>
-		</nav>
-	</nav>
-
-
 The PiloT is a Raspberry Pi \(RPi\) HAT compliant board which provides cellular
  connectivity, some variants also have GNSS location capability. test
 
