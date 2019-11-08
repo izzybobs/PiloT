@@ -53,8 +53,8 @@ title: Technical Documentation Home
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		list-style-type: none;
 		float: left;
+		list-style-type:none;
 		
 		#top-list{
  	        list-style-type: none;
