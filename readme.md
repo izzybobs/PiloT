@@ -138,8 +138,8 @@ title: Technical Documentation Home
 	<nav class="cf">
 		<nav class="cf">
 			<ul class="topmenu">
-				<a href="home.htm" title="Home page" class="current">Home</a></li>
-				<a href="products.htm" title="browse pages">Pages</a>
+				<li><a href="home.htm" title="Home page" class="current">Home</a></li>
+				<li><a href="products.htm" title="browse pages">Pages</a>
 					<ul class="submenu">
 						<a href="https://izzybobs.github.io/menu-test/tipperbear/" title="tipperbear">Tipper Bear</a></li>
 
