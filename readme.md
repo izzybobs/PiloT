@@ -3,190 +3,87 @@ permalink: /
 title: Technical Documentation Home
 ---
 {::nomarkdown}
-
+<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>dropdown menu</title>
-	<style>
-	html {
-		background: #ffffff;
-	}
-	body {
-		font: 100% Open Sans, "Open Sans", Arial, sans-serif;
-		line-height: 1.4;
-		width: 70%;
-		margin: 0 auto;
-		padding-bottom: 20em;
-		
-	}
-	h1, h2, h3 {
-		font: 100% Open Sans, "Open Sans", Arial, sans-serif;
-		font-size: 2.4em;
-		font-weight: normal;
-		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
-		color: #000000;
-	}
-	h2 {
-		font-size: 1.4em;
-	}
-	/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
-	/* For modern browsers */
-	.cf:before, .cf:after {
-		content:"";
-		display:table;
-	}
-	.cf:after {
-		clear:both;
-	}
-	/* For IE 6/7 (trigger hasLayout) */
-	.cf {
-		zoom:1;
-	}
-	/*horizontal menu styles*/
-	nav {
-		background: #ffffff;
-		height: 4em;
-		font-size: 20px;
-		font: 100% Open Sans, "Open Sans", Arial, sans-serif;
-		
-	}
-	ul, li {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		float: left;
-		
-		
-		#top-list{
- 	        list-style-type: none;
-                list-style: none;}
-	}
-	ul {
-		background: #ffffff;
-		height: 2em;
-		width: 100%;
-  		margin: 0;
- 		padding: 0;
-		
-	}
-	li {
-		position: relative;
-		list-style-type: none;
-	}
-	li a {
-		display: block;
-		line-height: 2em;
-		padding: 0 1em;
-		color: black;
-		text-decoration: none;
-		font-size: 20px;
-		list-style-type: none;
-		
-	}
-	li a:hover, .topmenu li:hover > a {
-		list-style-type: none;
-		background: #ffffff;
-		color: #f37221;
-		text-decoration: none;
-		height: 2em;
-		padding-top: .3em;
-		position: relative;
-		top: -.3em;
-		border-radius: .3em .3em 0 0;
-	}
-	.current, a:hover.current, .topmenu li:hover a.current {
-	list-style-type: none;
-		background: #ffffff;
-		color: #f37221;
-		text-decoration: none;
-		padding-top: .3em;
-		border-radius: .3em .3em 0 0;
-		position: relative;
-		top: -.3em;
-		border-bottom: .3em solid #ffffff;
-		cursor: default;
-	}
-	/*dropdown menu styles*/
-	ul.submenu {
-		float: none;
-		list-style-type: none;
-		background: #ffffff;
-		font-size: 12px;
-		width: auto;
-		height: auto;
-		position: absolute;
-		top: 2em;
-		left: -9000em;
-		max-height: 0;
-		-webkit-transition: max-height 0.5s ease-in-out;
-		-moz-transition: max-height 0.5s ease-in-out;
-		-o-transition: max-height 0.5s ease-in-out;
-		-ms-transition: max-height 0.5s ease-in-out;
-		transition: max-height 0.5s ease-in-out;
-	}
-	ul.submenu li {
-		float: none;
-		list-style-type: none;
-	}
-	.topmenu li:hover ul {
-		left: 0;
-		max-height: 10em;
-		list-style-type: none;
-	}
-	ul.submenu li a {
-		border-bottom: 1px solid white;
-		padding: .2em 1em;
-		white-space: nowrap;
-		list-style-type: none;
-	}
-	ul.submenu li:last-child a {
-		border-bottom: none;
-		list-style-type: none;
-	}
-	ul.submenu li a:hover {
-		background: #ffffff;
-		color: #f37221;
-		text-decoration: none;
-		height: 2em;
-		padding-top: .2em;
-		top: 0;
-		border-radius: 0;
-		list-style-type: none;
-	}
-	</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Open Sans, Arial, sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: #f37221;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  color: #f37221;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
 </head>
 <body>
-	<nav class="cf">
-		<nav class="cf">
-			<ul class="topmenu">
-				<li><a href="home.htm" title="Home page" class="current">Home</a></li>
-				<li><a href="products.htm" title="browse pages">Pages</a>
-				<ul class="submenu">
-				<a href="https://izzybobs.github.io/pilot/networkManagerDocs/" title="Network Manager">Network Manager Documentation</a></li>
 
-					</ul>
-				</li>
-				<li><a href="test.htm" title="test">Test</a>
-					<ul class="submenu">
-						<a href="test1.htm" title="test1">Test 1</a></li>
-						<li><a href="test2.htm" title="test2">Test 2</a></li>
-						<li><a href="test3.htm" title="test3">Test 3</a></li>
-					</ul>
-				</li>
-				<li><a href="https://izzybobs.github.io/menu-test/about/" title="More about me">About</a></li>
-				<li><a href="https://izzybobs.github.io/menu-test/" title="anchortest">Anchor Test</a>
-					<ul class="submenu">
-						<li><a href="https://izzybobs.github.io/menu-test/tipperbear/#tip_anchor" title="Click to test anchor">Anchor</a></li>
-						
-					</ul>
-				</li>
-			</ul>
-		</nav>
-	</nav>
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div>
+
+
 </body>
-</html>
-
 {:/}
 ---
 The PiloT is a Raspberry Pi \(RPi\) HAT compliant board which provides cellular
