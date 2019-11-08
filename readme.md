@@ -2,10 +2,8 @@
 permalink: /
 title: Technical Documentation Home
 ---
-<body>
-	<!DOCTYPE HTML>
-<html>
-<head>
+
+
 	<meta charset="UTF-8">
 	<title>dropdown menu</title>
 	<style>
@@ -166,8 +164,7 @@ title: Technical Documentation Home
 			</ul>
 		</nav>
 	</nav>
-</body>
-</html>
+
 
 The PiloT is a Raspberry Pi \(RPi\) HAT compliant board which provides cellular
  connectivity, some variants also have GNSS location capability. test
