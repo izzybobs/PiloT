@@ -147,7 +147,7 @@ title: Technical Documentation Home
 				</li>
 				<li><a href="test.htm" title="test">Test</a>
 					<ul class="submenu">
-						<li><a href="test1.htm" title="test1">Test 1</a></li>
+						<a href="test1.htm" title="test1">Test 1</a></li>
 						<li><a href="test2.htm" title="test2">Test 2</a></li>
 						<li><a href="test3.htm" title="test3">Test 3</a></li>
 					</ul>
