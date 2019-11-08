@@ -87,6 +87,7 @@ body {
       <a href="https://izzybobs.github.io/pilot/networkManagerDocs/">Overview</a>
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>
+      </div>
     </div>
   </div> 
 </div>
