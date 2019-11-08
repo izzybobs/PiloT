@@ -49,13 +49,13 @@ title: Technical Documentation Home
 		font-size: 20px;
 		font: 100% Open Sans, "Open Sans", Arial, sans-serif;
 	}
-	ul, li {
+	, li {
 		margin: 0;
 		padding: 0;
 		list-style: none;
 		float: left;
 	}
-	ul {
+	 {
 		background: #ffffff;
 		height: 2em;
 		width: 100%;
@@ -137,7 +137,7 @@ title: Technical Documentation Home
 <body>
 	<nav class="cf">
 		<nav class="cf">
-			<class="topmenu">
+			<ul class="topmenu">
 				<li><a href="home.htm" title="Home page" class="current">Home</a></li>
 				<li><a href="products.htm" title="browse pages">Pages</a>
 					<ul class="submenu">
