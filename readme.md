@@ -11,7 +11,6 @@ title: Technical Documentation Home
 #primary_nav_wrap ul
 {
 	list-style:none;
-	list-style-type:none;
 	position:relative;
 	float:left;
 	margin:0;
@@ -80,9 +79,9 @@ title: Technical Documentation Home
 {
 	display:block
 	} </style>
+<h1>Test Menu</h1>
 <nav id="primary_nav_wrap">
 <ul>
-<ul style="list-style-type:none;">
   <li class="current-menu-item"><a href="https://izzybobs.github.io/pilot/">Home</a></li>
   <li><a href="Network Manager Documentation">Network Manager</a>
     <ul>
@@ -130,6 +129,8 @@ title: Technical Documentation Home
     </ul>
   </li>
   <li><a href="#">Menu 4</a></li>
+  <li><a href="#">Menu 5</a></li>
+  <li><a href="#">Menu 6</a></li>
   <li><a href="#">Contact Us</a></li>
 </ul>
 </nav>
