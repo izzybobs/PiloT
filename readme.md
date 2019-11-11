@@ -11,6 +11,7 @@ title: Technical Documentation Home
 #primary_nav_wrap ul
 {
 	list-style:none;
+	list-style-type:none;
 	position:relative;
 	float:left;
 	margin:0;
