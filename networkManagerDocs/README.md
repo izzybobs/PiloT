@@ -1,4 +1,8 @@
+---
+permalink: /networkManagerDocs/
 
+title: "Network Manager Docs"
+---
 {::nomarkdown}
 
 <!DOCTYPE html>
