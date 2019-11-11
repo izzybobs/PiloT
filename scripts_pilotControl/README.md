@@ -137,7 +137,7 @@ body {margin:0;font-family:Open Sans}
 <body>
 
 <div class="topnav" id="myTopnav">
-  <a href="#home">Home</a>
+  <a href="https://izzybobs.github.io/pilot/">Home</a>
   <div class="dropdown">
     <button class="dropbtn"> Network Manager 
       <i class="fa fa-caret-down"></i>
