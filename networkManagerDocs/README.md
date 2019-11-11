@@ -219,7 +219,7 @@ init();
 
 ---
 {::nomarkdown}
-<h2> Browse page links:</h2>
+<h3> Browse page links:</h3>
 <div class="topnav" id="myTopnav">
   <a href="#">Quickstart Guide</a>
   <a href="#">SIM Information</a>
