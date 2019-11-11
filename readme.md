@@ -9,107 +9,234 @@ title: Technical Documentation Home
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+body {margin:0;font-family:Open Sans}
 
-.navbar {
+.topnav {
   overflow: hidden;
-  background-color: #333; 
+  background-color: #ffffff;
 }
 
-.navbar a {
+.topnav a {
   float: left;
-  font-size: 16px;
-  color: white;
+  display: block;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-.subnav {
+.active {
+  background-color: #f37221;
+  color: #f37221;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
   float: left;
   overflow: hidden;
 }
 
-.subnav .subnavbtn {
-  font-size: 16px;  
+.dropdown .dropbtn {
+  font-size: 17px;    
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 14px 16px;
-  background-color: inherit;
+  background-color: #ffffff;
   font-family: inherit;
   margin: 0;
 }
 
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
-}
-
-.subnav-content {
+.dropdown-content {
   display: none;
   position: absolute;
-  left: 0;
-  background-color: red;
-  width: 100%;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-
-.subnav-content a:hover {
-  background-color: #eee;
+.dropdown-content a {
+  float: none;
   color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color: #ffffff;
 }
 
-.subnav:hover .subnav-content {
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  color: #f37221;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff;
+  color: #f37221;
+}
+
+
+.topnav > .dropdown .dropdown {
+    overflow: visible;
+    float: none;
+    position: relative;
+    background-color: #ffffff;
+}
+.topnav > .dropdown .dropdown > .dropbtn {width: 100%;background-color: #ffffff;}
+.topnav > .dropdown .dropdown > .dropbtn + .dropdown-content {background-color: #ffffff; top: 0; left: 95%;}
+
+#myTopnav.topnav:not(.responsive) .dropdown:hover > .dropdown-content {
   display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    background-color: #ffffff;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left; 
+    background color: #ffffff;
+    
+  }
+  .topnav > .dropdown .dropdown > .dropbtn + .dropdown-content {background-color: #ffffff; top: 0; left: auto;}
+  .topnav > .dropdown .dropdown > .dropbtn + .dropdown-content, .topnav > .dropdown .dropdown > .dropbtn { text-indent: 15px;box-shadow: none; background-color:#ffffff}
 }
 </style>
 </head>
 <body>
 
-<div class="navbar">
-  <a href="#home">Home</a>
-  <div class="subnav">
-    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#company">Company</a>
-      <a href="#team">Team</a>
-      <a href="#careers">Careers</a>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn" <a href="https://linkwave.co.uk">News</a> 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
   </div> 
-  <div class="subnav">
-    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#bring">Bring</a>
-      <a href="#deliver">Deliver</a>
-      <a href="#package">Package</a>
-      <a href="#express">Express</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
     </div>
+    </div>
+<div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+    </div>
+    </div>
+<div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+    </div>   
+    
+
   </div> 
-  <div class="subnav">
-    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#link1">Link 1</a>
-      <a href="#link2">Link 2</a>
-      <a href="#link3">Link 3</a>
-      <a href="#link4">Link 4</a>
-    </div>
-  </div>
-  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
-<div style="padding:0 16px">
-  <h3>Subnav/dropdown menu inside a Navigation Bar</h3>
-  <p>Hover over the "about", "services" or "partners" link to see the sub navigation menu.</p>
-</div>
+
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
+function resetthis(){
+
+var x = document.getElementById("myTopnav");
+var butt = document.querySelectorAll(".dropbtn");
+
+	for(i = 0; i<butt.length;i++){
+      butt[i].nextElementSibling.removeAttribute("style")
+      }
+x.className = "topnav";
+
+}
+
+function init(){
+var x = document.querySelector("#myTopnav");
+	var butt = x.querySelectorAll(".dropbtn");
+ 
+	for(i = 0; i<butt.length;i++){
+   butt[i].nextElementSibling.style.display="";
+		butt[i].onclick=function(){
+       
+        if(x.className.indexOf("responsive")!= -1){
+			if(this.nextElementSibling.style.display=="none" || this.nextElementSibling.style.display=="")
+            {
+				this.nextElementSibling.style.display="block";
+			}
+			else
+			{
+			this.nextElementSibling.style.display="none";
+			}
+            }
+		}
+	}
+}
+
+
+
+
+window.onresize = function(){
+resetthis();
+}
+init();
+
+</script>
 
 </body>
 
