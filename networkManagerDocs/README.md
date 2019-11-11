@@ -147,6 +147,7 @@ body {margin:0;font-family:Open Sans}
       <a href="https://izzybobs.github.io/pilot/networkManagerDocs/simUse_info.html">SIM Information</a>
       <a href="https://izzybobs.github.io/pilot/networkManagerDocs/test_configurationRecords.html">Testing Information</a>
       <a href="https://izzybobs.github.io/pilot/networkManagerDocs#more_notes">More Notes</a>
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs#modem_manager">Modem Manager</a>
     </div>
   </div> 
   <a href="https://izzybobs.github.io/pilot/scripts_pilotControl/">Shell Scripts</a>
@@ -222,9 +223,9 @@ init();
 {::nomarkdown}
 <h3> Browse page links:</h3>
 <div class="topnav" id="myTopnav">
-  <a href="#">Quickstart Guide</a>
-  <a href="#">SIM Information</a>
-  <a href="#">Testing Information</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs#quickstart_guide">Quickstart Guide</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs#sim_information">SIM Information</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs#pilot_testing_info">Testing Information</a>
   <a href="https://izzybobs.github.io/pilot/networkManagerDocs#more_notes">More Notes</a>
   <a href="https://izzybobs.github.io/pilot/networkManagerDocs#modem_manager">Modem Manager</a>
     </div>
@@ -256,21 +257,26 @@ Please be aware that network manager can only manage and check the modems
 
 ## [Quickstart Guide](./Quickstart.md)
 
-Click the heading for a quick start guide
-
+{::nomarkdown}
+<p><a id="quickstart_guide"></a>Click the heading for a quickstart guide</p>
+{:/}
 Note that during the quick start installation process the Raspbian default 
  method *dhcpcd* is uninstalled and replaced by network-manager and the network
  manager GUI is installed as a replacement for the dhcpcd GUI
 
 ## [SIM Information](./simUse_info.md) 
 
-Click the heading for information on our experiments configuring network manager 
- cellular profiles for different cellular operators SIMs
+{::nomarkdown}
+<p><a id="sim_information"></a>Click the heading for information on our experiments configuring network manager cellular profiles for different cellular operators SIMs</p>
+{:/}
+
 
 ## [PiloT Testing Information](./test_configurationRecords.md)  
 
-Click the heading for information on Pilot / Raspbian / RPi combinations that
- have been tried  
+{::nomarkdown}
+<p><a id="pilot_testing_info"></a>Click the heading for information on Pilot / Raspbian / RPi combinations that
+ have been tried</p>
+{:/}
 
 
 ##  More notes
