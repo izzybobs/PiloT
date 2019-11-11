@@ -1,4 +1,5 @@
-##
+permalink: /
+title: Technical Documentation Home
 ---
 {::nomarkdown}
 
