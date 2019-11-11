@@ -135,15 +135,15 @@ body {margin:0;font-family:Open Sans}
 
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
   <div class="dropdown">
-    <button class="dropbtn"> Dropdown 
+    <button class="dropbtn"> Network Manager 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs/">Overview</a>
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs/Quickstart.html">Quickstart Guide</a>
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs/simUse_info.html">SIM Information</a>
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs/test_configurationRecords.html">Testing Information</a>
     </div>
   </div> 
   <div class="dropdown">
