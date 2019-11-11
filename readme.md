@@ -83,6 +83,7 @@ title: Technical Documentation Home
 <h1>Test Menu</h1>
 <nav id="primary_nav_wrap">
 <ul>
+<ul style="list-style-type:none;">
   <li class="current-menu-item"><a href="https://izzybobs.github.io/pilot/">Home</a></li>
   <li><a href="Network Manager Documentation">Network Manager</a>
     <ul>
@@ -136,6 +137,7 @@ title: Technical Documentation Home
 
 {:/}
 
+<br>
 ---
 The PiloT is a Raspberry Pi \(RPi\) HAT compliant board which provides cellular
  connectivity, some variants also have GNSS location capability. test
