@@ -46,7 +46,7 @@ body {margin:0;font-family:Open Sans}
   outline: none;
   color: black;
   padding: 14px 16px;
-  background-color: #ffffff;
+  background-color: #f37221;
   font-family: inherit;
   margin: 0;
 }
