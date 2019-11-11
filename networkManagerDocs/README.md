@@ -275,9 +275,9 @@ For [Even more notes](./instructions_NetworkManagerMore.md)
 
 ## Modem manager
 
-When Network manager is installed modem manager is also installed.  A command
- line interface for modemManager is available - mmcli.  It is also possible to 
- install a GUI. For example  
+{::nomarkdown}
+<p><a id="modem_manager"></a>When Network manager is installed modem manager is also installed. A command line interface for modemManager is available - mmcli. It is also possible to install a GUI. For example:</p>
+{:/}
 
 ```
 $ sudo apt-get install modem-manager-gui
