@@ -3,6 +3,7 @@ permalink: /
 title: Technical Documentation Home
 ---
 {::nomarkdown}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -146,36 +147,10 @@ body {margin:0;font-family:Open Sans}
       <a href="https://izzybobs.github.io/pilot/networkManagerDocs/test_configurationRecords.html">Testing Information</a>
     </div>
   </div> 
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-    </div>
-    </div>
-<div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-    </div>
-    </div>
-<div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-    </div>   
-    
-
-  </div> 
-  <a href="#about">About</a>
+  <a href="https://izzybobs.github.io/pilot/scripts_pilotControl/">Shell Scripts</a>
+  <a href="https://izzybobs.github.io/pilot/scripts_python_checkIp/">IP Link Check</a>
+  <a href="https://izzybobs.github.io/pilot/speedtests/">Speed Tests</a>
+  
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
@@ -239,7 +214,6 @@ init();
 </script>
 
 </body>
-
 {:/}
 
 ---
