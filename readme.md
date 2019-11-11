@@ -128,9 +128,6 @@ title: Technical Documentation Home
     </ul>
   </li>
   <li><a href="#">Menu 4</a></li>
-  <li><a href="#">Menu 5</a></li>
-  <li><a href="#">Menu 6</a></li>
-  <li><a href="#">Contact Us</a></li>
 </ul>
 </nav>
 
