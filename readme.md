@@ -79,7 +79,6 @@ title: Technical Documentation Home
 {
 	display:block
 	} </style>
-<h1>Test Menu</h1>
 <nav id="primary_nav_wrap">
 <ul>
   <li class="current-menu-item"><a href="https://izzybobs.github.io/pilot/">Home</a></li>
