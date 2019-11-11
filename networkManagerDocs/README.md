@@ -224,7 +224,7 @@ init();
   <a href="#">Quickstart Guide</a>
   <a href="#">SIM Information</a>
   <a href="#">Testing Information</a>
-  <a href="#">More Notes</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs#modem_manager#more_notes">More Notes</a>
   <a href="https://izzybobs.github.io/pilot/networkManagerDocs#modem_manager">Modem Manager</a>
     </div>
 
@@ -274,13 +274,14 @@ Click the heading for information on Pilot / Raspbian / RPi combinations that
 
 ##  More notes
 
-The method described in the quick start is experimental and has only been tested on
+{::nomarkdown}
+<p><a id="more_notes"></a>The method described in the quick start is experimental and has only been tested on
  a limited set of RPi's, Rasbian OS variants and PiloT variants  
 
 Cellular modems which support the following connectivity methods over USB have been tried
 * MBIM  
-* PPP  
-
+* PPP  </p>
+{:/}
 For [Even more notes](./instructions_NetworkManagerMore.md) 
 
 
