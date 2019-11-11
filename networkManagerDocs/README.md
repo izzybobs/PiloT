@@ -146,6 +146,7 @@ body {margin:0;font-family:Open Sans}
       <a href="https://izzybobs.github.io/pilot/networkManagerDocs/Quickstart.html">Quickstart Guide</a>
       <a href="https://izzybobs.github.io/pilot/networkManagerDocs/simUse_info.html">SIM Information</a>
       <a href="https://izzybobs.github.io/pilot/networkManagerDocs/test_configurationRecords.html">Testing Information</a>
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs#modem_manager#more_notes">More Notes</a>
     </div>
   </div> 
   <a href="https://izzybobs.github.io/pilot/scripts_pilotControl/">Shell Scripts</a>
