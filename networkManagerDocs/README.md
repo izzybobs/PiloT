@@ -1,5 +1,5 @@
-permalink: /
-title: Technical Documentation Home
+permalink: pilot/networkManagerDocs/
+
 ---
 {::nomarkdown}
 
