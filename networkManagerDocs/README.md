@@ -1,6 +1,3 @@
----
-title: NetworkManager Docs: Overview
----
 
 {::nomarkdown}
 
