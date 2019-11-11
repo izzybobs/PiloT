@@ -225,7 +225,7 @@ init();
   <a href="#">Quickstart Guide</a>
   <a href="#">SIM Information</a>
   <a href="#">Testing Information</a>
-  <a href="https://izzybobs.github.io/pilot/networkManagerDocs#modem_manager#more_notes">More Notes</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs#more_notes">More Notes</a>
   <a href="https://izzybobs.github.io/pilot/networkManagerDocs#modem_manager">Modem Manager</a>
     </div>
 
