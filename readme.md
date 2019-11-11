@@ -80,7 +80,6 @@ title: Technical Documentation Home
 {
 	display:block
 	} </style>
-<h1>Test Menu</h1>
 <nav id="primary_nav_wrap">
 <ul>
 <ul style="list-style-type:none;">
