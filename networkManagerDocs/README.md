@@ -1,4 +1,4 @@
-permalink: pilot/networkManagerDocs/
+Network Manager Docs
 
 ---
 {::nomarkdown}
