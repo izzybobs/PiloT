@@ -221,5 +221,5 @@ init();
 {:/}
 ---
 {::nomarkdown}
-<p>The real <a href="https://github.com/johnofleek/Pilot/tree/master/scripts_pilotControl">repository</a> folder contains shell script files which enable the RPi to control the power state of the PiloT board</p>  
+<p>The real <a href="https://github.com/johnofleek/Pilot/tree/master/scripts_pilotControl" target="_blank">repository</a> folder contains shell script files which enable the RPi to control the power state of the PiloT board</p>  
 {:/}
