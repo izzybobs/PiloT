@@ -227,8 +227,8 @@ init();
   <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#nwm_doc">Network Manager Documentation</a>
   <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#nwm_cmdline_config">Cellular Command Line Configuration</a>
   <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#nmcli_settings">nmcli Settings</a>
-  <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#example_configfile">Manual Configuration</a>
-  <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#deubug_mm">Debug Modem Manager</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#example_config_file">Manual Configuration</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#debug_mm">Debug Modem Manager</a>
     </div>
 
 {:/}
