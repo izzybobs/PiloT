@@ -315,9 +315,9 @@ connection.autoconnect-slaves:          -1 (default)
 ```
 
 {::nomarkdown}
-<p><a id="nmcli_settings"></a>To list nmcli settings "show",<a href="https://izzybobs.github.io/pilot/networkManagerDocs/exampleNmcliConnectShow.html">click here.</a></p>
+<p><a id="nmcli_settings"></a>To list nmcli settings "show", <a href="https://izzybobs.github.io/pilot/networkManagerDocs/exampleNmcliConnectShow.html">click here.</a></p>
 {:/}
-[To list nmcli settings "show" see](./exampleNmcliConnectShow.md)
+
 
 ### Network manager - configure via GUI
 Right click on the tray icon - "edit - connections"
@@ -332,8 +332,9 @@ root@raspberrypi:/etc/NetworkManager# ls system-connections
 '3 Internet.nmconnection'
 ```
 
-[For an example see](./exampleNetworkManagerConfigFile.md)  
-
+{::nomarkdown}
+<p><a id="example_config_file"></a>For an example, <a href="https://izzybobs.github.io/pilot/networkManagerDocs/exampleNetworkManagerConfigFile.html">click here.</a></p>
+{:/}
 
 ```
 sudo service network-manager restart
