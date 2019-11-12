@@ -1,5 +1,5 @@
 ---
-permalink: /networkManagerDocs/instructions_NetworkManagerMore.md
+permalink: /networkManagerDocs/instructions_NetworkManagerMore
 
 title: "Even More Notes"
 ---
