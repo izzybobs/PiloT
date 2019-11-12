@@ -242,7 +242,7 @@ Network manager can replace the functionality provided by *dhcpcd* which is
  network interfaces
 
 {::nomarkdown}
-<p>For a quick overview of network manager take a look at<a href="https://en.wikipedia.org/wiki/NetworkManager" target="_blank">Wikipedia.</a></p>  
+<p>For a quick overview of network manager take a look at <a href="https://en.wikipedia.org/wiki/NetworkManager" target="_blank">Wikipedia.</a></p>  
 {:/}
  Network manager has multiple interfaces - graphical, command line and an API.
  Network manager uses another component called modem manager.
