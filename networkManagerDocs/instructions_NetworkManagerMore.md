@@ -269,6 +269,10 @@ NetworkManager is a linux daemon - from the manual
 Use Linux network manager to provide automatation of the Pilot cellular modules 
 IP interface bringup in Linux
 
+{::nomarkdown}
+<p><a id="nwm_moreinfo"></a>For more info, <a href="https://developer.gnome.org/NetworkManager/stable/NetworkManager.html" target="_blank">click here.</a></p>  
+{:/}
+
 [For more info](https://developer.gnome.org/NetworkManager/stable/NetworkManager.html)
 
 [Documentation on network Manager](https://wiki.debian.org/NetworkManager)  
