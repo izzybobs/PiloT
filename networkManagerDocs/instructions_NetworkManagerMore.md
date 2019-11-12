@@ -276,9 +276,10 @@ IP interface bringup in Linux
 {::nomarkdown}
 <p><a id="nwm_doc"></a><a href="https://wiki.debian.org/NetworkManager" target="_blank">Documentation on Network Manager.</a></p>  
 {:/}
-[Documentation on network Manager](https://wiki.debian.org/NetworkManager)  
 
-[Documentation on network manager cellular command line configuration](https://docs.ubuntu.com/core/en/stacks/network/network-manager/docs/configure-cellular-connections)
+{::nomarkdown}
+<p><a id="nwm_cmdline_config"></a><a href="https://docs.ubuntu.com/core/en/stacks/network/network-manager/docs/configure-cellular-connections" target="_blank">Documentation on network manager cellular command line configuration.</a></p>  
+{:/}
 
 
 ### NetworkManager - configuration 
@@ -370,7 +371,10 @@ the functionality of this GUI is replaced by the NetworkManager Applet icon
 
 
 ## Debug stuff
-Debug modemManager [see](https://www.freedesktop.org/wiki/Software/ModemManager/Debugging/)  
+{::nomarkdown}
+<p><a id="debug_mm"></a><a href="https://www.freedesktop.org/wiki/Software/ModemManager/Debugging/" target="_blank">Debug modemManager.</a></p>  
+{:/}
+
 
 **Have a look at the syslog**   
 ```
