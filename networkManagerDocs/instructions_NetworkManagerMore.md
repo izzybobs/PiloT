@@ -314,6 +314,9 @@ connection.autoconnect-retries:         -1 (default)
 connection.autoconnect-slaves:          -1 (default)
 ```
 
+{::nomarkdown}
+<p><a id="nmcli_settings"></a>To list nmcli settings "show",<a href="https://izzybobs.github.io/pilot/networkManagerDocs/exampleNmcliConnectShow.html">click here.</a></p>
+{:/}
 [To list nmcli settings "show" see](./exampleNmcliConnectShow.md)
 
 ### Network manager - configure via GUI
