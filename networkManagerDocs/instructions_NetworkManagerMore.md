@@ -273,8 +273,9 @@ IP interface bringup in Linux
 <p><a id="nwm_moreinfo"></a>For more info, <a href="https://developer.gnome.org/NetworkManager/stable/NetworkManager.html" target="_blank">click here.</a></p>  
 {:/}
 
-[For more info](https://developer.gnome.org/NetworkManager/stable/NetworkManager.html)
-
+{::nomarkdown}
+<p><a id="nwm_doc"></a><a href="https://wiki.debian.org/NetworkManager" target="_blank">Documentation on Network Manager.</a></p>  
+{:/}
 [Documentation on network Manager](https://wiki.debian.org/NetworkManager)  
 
 [Documentation on network manager cellular command line configuration](https://docs.ubuntu.com/core/en/stacks/network/network-manager/docs/configure-cellular-connections)
