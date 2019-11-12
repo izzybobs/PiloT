@@ -241,8 +241,9 @@ Network manager can replace the functionality provided by *dhcpcd* which is
  of many cellular modems as well as managing the usual WiFi and Ethernet
  network interfaces
 
-For a quick overview of network manager take a look at
- [wikipedia](https://en.wikipedia.org/wiki/NetworkManager).
+{::nomarkdown}
+<p>For a quick overview of network manager take a look at<a href="https://en.wikipedia.org/wiki/NetworkManager" target="_blank">Wikipedia.</a></p>  
+{:/}
  Network manager has multiple interfaces - graphical, command line and an API.
  Network manager uses another component called modem manager.
  Modem manager also has GUI, CLI and API interfaces. 
