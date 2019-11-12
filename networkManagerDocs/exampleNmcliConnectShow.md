@@ -216,7 +216,7 @@ init();
 
 </body>
 {:/}
-
+---
 ### Demonstrate how to read a connection settings
 
 nmcli c show '3 Internet'  
