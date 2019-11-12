@@ -132,7 +132,91 @@ body {margin:0;font-family:Open Sans}
 </style>
 </head>
 <body>
+
+<div class="topnav" id="myTopnav">
+  <a href="https://izzybobs.github.io/pilot/">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn" class="active"> Network Manager 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs/">Overview</a>
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs/Quickstart.html">Quickstart Guide</a>
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs/simUse_info.html">SIM Information</a>
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs/test_configurationRecords.html">Testing Information</a>
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs#more_notes">More Notes</a>
+      <a href="https://izzybobs.github.io/pilot/networkManagerDocs#modem_manager">Modem Manager</a>
+    </div>
+  </div> 
+  <a href="https://izzybobs.github.io/pilot/scripts_pilotControl/">Shell Scripts</a>
+  <a href="https://izzybobs.github.io/pilot/scripts_python_checkIp/">IP Link Check</a>
+  <a href="https://izzybobs.github.io/pilot/speedtests/">Speed Tests</a>
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
+function resetthis(){
+
+var x = document.getElementById("myTopnav");
+var butt = document.querySelectorAll(".dropbtn");
+
+	for(i = 0; i<butt.length;i++){
+      butt[i].nextElementSibling.removeAttribute("style")
+      }
+x.className = "topnav";
+
+}
+
+function init(){
+var x = document.querySelector("#myTopnav");
+	var butt = x.querySelectorAll(".dropbtn");
+ 
+	for(i = 0; i<butt.length;i++){
+   butt[i].nextElementSibling.style.display="";
+		butt[i].onclick=function(){
+       
+        if(x.className.indexOf("responsive")!= -1){
+			if(this.nextElementSibling.style.display=="none" || this.nextElementSibling.style.display=="")
+            {
+				this.nextElementSibling.style.display="block";
+			}
+			else
+			{
+			this.nextElementSibling.style.display="none";
+			}
+            }
+		}
+	}
+}
+
+
+
+
+window.onresize = function(){
+resetthis();
+}
+init();
+
+</script>
+
+</body>
 {:/}
+
 ### Demonstrate how to read a connection settings
 
 nmcli c show '3 Internet'  
