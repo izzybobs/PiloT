@@ -223,11 +223,12 @@ init();
 {::nomarkdown}
 <h3> Browse page links:</h3>
 <div class="topnav" id="myTopnav">
-  <a href="https://izzybobs.github.io/pilot/networkManagerDocs#quickstart_guide">Quickstart Guide</a>
-  <a href="https://izzybobs.github.io/pilot/networkManagerDocs#sim_information">SIM Information</a>
-  <a href="https://izzybobs.github.io/pilot/networkManagerDocs#pilot_testing_info">Testing Information</a>
-  <a href="https://izzybobs.github.io/pilot/networkManagerDocs#more_notes">More Notes</a>
-  <a href="https://izzybobs.github.io/pilot/networkManagerDocs#modem_manager">Modem Manager</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#nwm_moreinfo">More Information</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#nwm_doc">Network Manager Documentation</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#nwm_cmdline_config">Cellular Command Line Configuration</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#nmcli_settings">nmcli Settings</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#example_configfile">Manual Configuration</a>
+  <a href="https://izzybobs.github.io/pilot/networkManagerDocs/instructions_NetworkManagerMore#deubug_mm">Debug Modem Manager</a>
     </div>
 
 {:/}
